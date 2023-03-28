@@ -2,7 +2,6 @@ from collections import deque
 
 n = int(input())
 word_list = []
-flag = False
 
 for _ in range(n):
     linked_list = deque(input())
@@ -12,8 +11,7 @@ for _ in range(n):
             flag = True
             break
         linked_list.rotate()
-    if not flag:
+    else:
         word_list.append(tmp)
-    flag = False
 
 print(len(word_list))

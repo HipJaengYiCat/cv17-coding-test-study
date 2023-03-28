@@ -1,7 +1,7 @@
 from collections import deque
 
 n = int(input())
-word_list = []
+word_list = list()
 
 for _ in range(n):
     linked_list = deque(input())

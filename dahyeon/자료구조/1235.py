@@ -26,7 +26,7 @@ for i in range(l-1,-1,-1): #문자열 길이만큼 6~0
       stack.append(lst[j][i:]) #다른 수 추가
   if cnt == n: #n개 문자를 다 확인했을 때,
     t = True
-    print(i)
+    print(l-i)
     break
 if not t:
   print(0)

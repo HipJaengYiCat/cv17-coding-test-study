@@ -6,7 +6,7 @@
 N = int(input())
 
 
-student_id = [input()[::-1] for _ in range(N)]# 반복문에서 뒷자리 부터 쉽게 탐색하기 위해 문자를 뒤집어서 입력
+student_id = [input()[::-1] for _ in range(N)] # 반복문에서 뒷자리 부터 쉽게 탐색하기 위해 문자를 뒤집어서 입력
 
 length = len(student_id[0])
 

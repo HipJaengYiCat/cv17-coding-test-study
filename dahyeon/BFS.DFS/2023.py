@@ -24,7 +24,6 @@ for i in lst:
 # import math
 # import sys
 # input = sys.stdin.readline
-
 # def check(n,a):
 #   lst = []
 #   cnt = 0

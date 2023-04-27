@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-def binary_search(arr: list, x) -> int:
+def binary_search(arr: list, x: int) -> int:
     start = 0
     end = len(arr) - 1
     while start < end:
